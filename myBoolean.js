@@ -1,0 +1,1 @@
+const toggleBool = () => (bool = !bool);
