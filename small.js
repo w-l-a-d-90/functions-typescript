@@ -1,4 +1,5 @@
-console.log(1 +  +"2" + "2");
-const electronDownloadPath = path.join(repositoryRootPath, 'electron');
-console.log("1 || 2 = "+(1 || 2));
-[foo, bar] = [bar, foo];
+const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
+console.log("1 && 2 = "+(1 && 2));
+const merge = Object.assign({}, obj1, obj2);
+const copyToClipboard = (text) => navigator.clipboard.writeText(text);
+const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
