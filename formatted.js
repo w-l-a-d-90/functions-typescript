@@ -1,1 +1,3 @@
-console.log("0 && 1 = "+(0 && 1));
+const results = await Promise.all(resultingPromises);
+const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
+const toggleBool = () => (bool = !bool);
