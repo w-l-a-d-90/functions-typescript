@@ -1,5 +1,3 @@
-const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
-console.log("1 && 2 = "+(1 && 2));
-const merge = Object.assign({}, obj1, obj2);
-const copyToClipboard = (text) => navigator.clipboard.writeText(text);
-const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
+const repositoryRootPath = path.resolve(__dirname, '..');
+const round = (n, d) => Number(Math.round(n + "e" + d) + "e-" + d);
+console.log(false === '0');
