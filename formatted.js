@@ -1,3 +1,3 @@
-const results = await Promise.all(resultingPromises);
-const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
-const toggleBool = () => (bool = !bool);
+[foo, bar] = [bar, foo];
+console.log( "A" - "B" + 2);
+const repositoryRootPath = path.resolve(__dirname, '..');
