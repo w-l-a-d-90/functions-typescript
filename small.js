@@ -1,2 +1,1 @@
-const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
-const executableName = getExecutableName(channel, appName);
+const average = arr => arr.reduce((a, b) => a + b) / arr.length;
