@@ -1,1 +1,2 @@
-const average = arr => arr.reduce((a, b) => a + b) / arr.length;
+const arrayContains = (arr, element) => arr.includes(element);
+const value = ( 5 < 7 ) ? "True" : "False" ;
