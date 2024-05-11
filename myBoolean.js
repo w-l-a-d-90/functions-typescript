@@ -1,3 +1,3 @@
-console.log(['foo', 'bar'].concat(['baz', 'qux'].reverse().slice(1)).join(' ').replace(/a/i, 'ee').toUpperCase());
-const merge = (a, b) => [...a, ...b];
-const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+const sumArray = arr => arr.reduce((total, current) => total + current, 0);
+const capitalize = str => str.charAt(0).toUpperCase() + str.slice(1);
+const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
