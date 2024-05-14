@@ -1,2 +1,3 @@
-console.log(['foo', 'bar'].concat(['baz', 'qux'].reverse().slice(1)).join(' ').replace(/a/i, 'ee').toUpperCase());
-const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
+const factorial = n => n <= 1 ? 1 : n * factorial(n - 1);
+console.log(+"1" +  "1" + "2");
+const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
