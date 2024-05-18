@@ -1,1 +1,1 @@
-const merge = (a, b) => [...a, ...b];
+var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
