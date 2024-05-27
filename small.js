@@ -1,1 +1,1 @@
-var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
+const isArray = (arr) => Array.isArray(arr);
