@@ -1,2 +1,2 @@
-const currentDate = () => new Date().toLocaleDateString('en-US');
-function myAPITS(someString: string, someNum: number) { ... };
+const lastElement = arr => arr[arr.length - 1];
+const uniqueArray = arr => [...new Set(arr)];
