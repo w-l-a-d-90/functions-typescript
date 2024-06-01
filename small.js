@@ -1,3 +1,2 @@
-const fullName = name || 'buddy';
-var DELIM_SIZE = 4;
-const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");
+const repositoryRootPath = path.resolve(__dirname, '..');
+const uniqueArr = (arr) => [...new Set(arr)];
