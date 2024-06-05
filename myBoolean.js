@@ -1,2 +1,1 @@
-const lastElement = arr => arr[arr.length - 1];
-const uniqueArray = arr => [...new Set(arr)];
+const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
