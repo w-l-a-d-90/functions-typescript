@@ -1,3 +1,2 @@
-const isAppleDevice = /Mac|iPod|iPhone|iPad/.test(navigator.platform);
-const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
-const merge = [...new Set([...a, ...b])];
+console.log(1 +  -"1" + "2");
+const randomInteger = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
