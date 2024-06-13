@@ -1,3 +1,3 @@
-var arr3 = "jones".split('');
-const getParameters = (URL) => JSON.parse('{"' + decodeURI(URL.split("?")[1]).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g, '":"') +'"}');
-const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
+const randomArrayItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
+const executableName = getExecutableName(channel, appName);
+const result = await makeHttpRequest(url);
