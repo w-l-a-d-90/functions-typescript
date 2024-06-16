@@ -1,2 +1,1 @@
-const intermediateAppPath = path.join(buildOutputPath, 'app');
-var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
+const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
