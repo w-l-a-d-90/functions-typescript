@@ -1,2 +1,2 @@
-const value = ( 5 < 7 ) ? "True" : "False" ;
-const copyToClipboard = (text) => navigator.clipboard.writeText(text);
+const intermediateAppPath = path.join(buildOutputPath, 'app');
+var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
