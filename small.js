@@ -1,3 +1,2 @@
-const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
-const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
-const arrayContains = (arr, element) => arr.includes(element);
+const merge = (a, b) => [...a, ...b];
+const currentDate = () => new Date().toLocaleDateString('en-US');
