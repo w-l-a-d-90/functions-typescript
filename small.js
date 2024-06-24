@@ -1,2 +1,1 @@
-const merge = (a, b) => [...a, ...b];
-const currentDate = () => new Date().toLocaleDateString('en-US');
+const capitalize = str => str.charAt(0).toUpperCase() + str.slice(1);
