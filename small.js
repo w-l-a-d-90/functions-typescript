@@ -1,2 +1,3 @@
-const randomString = () => Math.random().toString(36).slice(2);
-const result = await makeHttpRequest(url);
+const scriptRootPath = path.join(repositoryRootPath, 'script');
+console.log("0 && 1 = "+(0 && 1));
+const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
