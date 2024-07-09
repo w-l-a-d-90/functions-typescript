@@ -1,3 +1,2 @@
-const scriptRootPath = path.join(repositoryRootPath, 'script');
-console.log("0 && 1 = "+(0 && 1));
-const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+const sumArray = arr => arr.reduce((total, current) => total + current, 0);
+const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
