@@ -1,1 +1,2 @@
-const allResults = await Promise.all(items.map(async (item) => {}));
+const clearCookies = document.cookie.split(';').forEach(cookie => document.cookie = cookie.replace(/^ +/, '').replace(/=.*/, `=;expires=${new Date(0).toUTCString()};path=/`));
+const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
