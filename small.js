@@ -1,2 +1,2 @@
-const sumArray = arr => arr.reduce((total, current) => total + current, 0);
-const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
+const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
+const capitalize = str => str.charAt(0).toUpperCase() + str.slice(1);
