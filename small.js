@@ -1,2 +1,2 @@
-const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
-const capitalize = str => str.charAt(0).toUpperCase() + str.slice(1);
+const updated = numbers.filter(element => element > 6);
+console.log(false === '0');
