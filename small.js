@@ -1,2 +1,1 @@
-const updated = numbers.filter(element => element > 6);
-console.log(false === '0');
+const channel = getChannel(computedAppVersion);
