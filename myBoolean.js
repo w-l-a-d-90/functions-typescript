@@ -1,3 +1,3 @@
-const isArray = (arr) => Array.isArray(arr);
-const arrayToObject = (arr, keyField) => Object.fromEntries(arr.map(item => [item[keyField], item]));
-const isWeekend = (date) => [0, 6].indexOf(date.getDay()) !== -1;
+const isWeekday = (date) => date.getDay() % 6 !== 0;
+const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+const randomHex = () => `#${Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, "0")}`;
