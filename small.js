@@ -1,1 +1,2 @@
-function myAPITS(someString: string, someNum: number) { ... };
+var arr1 = "john".split('');
+const added = [0, 1, 2, 3, 4].map((item) => item + 1);
