@@ -1,2 +1,1 @@
-const clearCookies = document.cookie.split(';').forEach(cookie => document.cookie = cookie.replace(/^ +/, '').replace(/=.*/, `=;expires=${new Date(0).toUTCString()};path=/`));
-const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
+const copyTextToClipboard = async (text) => { await navigator.clipboard.writeText(text)};
